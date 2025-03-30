@@ -1,0 +1,16 @@
+/* app.css */
+li.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  background-color: #d4edda;
+}
+
+button.remove-btn {
+  background-color: #dc3545;
+  color: white;
+}
